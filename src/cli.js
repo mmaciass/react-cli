@@ -28,4 +28,4 @@ const cli = (args) => {
     program.parse(args);
 };
 
-cli(process.argv);
+cli(process.argv)
