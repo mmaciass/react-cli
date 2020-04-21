@@ -1,22 +1,25 @@
 {
-  "name": "mms-react-cli",
-  "version": "0.0.1",
-  "description": "",
-  "main": "src/cli.js",
-  "bin": {
-    "mms-react": "src/cli.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": {
-    "name": "Marcos Macias Sanchez",
-    "email": "mmaciass940412@gmail.com"
-  },
-  "license": "ISC",
-  "dependencies": {
-    "commander": "^5.0.0",
-    "inquirer": "^7.1.0"
-  }
+    "name": "mms-react-cli",
+    "version": "0.0.1",
+    "description": "",
+    "main": "src/cli.js",
+    "bin": {
+        "mms-react": "src/cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Marcos Macias Sanchez",
+        "email": "mmaciass940412@gmail.com"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "colors": "^1.4.0",
+        "commander": "^5.0.0",
+        "configstore": "^5.0.1",
+        "inquirer": "^7.1.0"
+    }
 }
