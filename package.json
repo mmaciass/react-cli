@@ -2,9 +2,9 @@
     "name": "mms-react-cli",
     "version": "0.0.1",
     "description": "",
-    "main": "src/cli.js",
+    "main": "dist/cli.js",
     "bin": {
-        "mms-react": "src/cli.js"
+        "mms-react": "dist/cli.js"
     },
     "scripts": {
         "start": "tsc && node dist/index.js",
