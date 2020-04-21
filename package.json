@@ -7,8 +7,8 @@
         "mms-react": "dist/cli.js"
     },
     "scripts": {
-        "start": "tsc && node dist/index.js",
-        "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+        "start": "tsc && node dist/cli.js",
+        "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/cli.ts"
     },
     "keywords": [],
     "author": {
