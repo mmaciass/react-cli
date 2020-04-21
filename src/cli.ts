@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
-const program = require('commander');
-const pkg = require('../package.json');
+import {program} from "commander";
+
+// import {pkg} from '../package.json';
 
 const cli = (args) => {
-    program.version(pkg.version);
+    program.version('0.1');
 
     program.command('create-project <name>')
         .alias('cp')
@@ -28,4 +29,4 @@ const cli = (args) => {
     program.parse(args);
 };
 
-cli(process.argv)
+cli(process.argv);
