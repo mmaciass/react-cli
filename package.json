@@ -7,7 +7,8 @@
         "mms-react": "src/cli.js"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "tsc && node dist/index.js",
+        "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
     },
     "keywords": [],
     "author": {
@@ -23,6 +24,8 @@
         "inquirer": "^7.1.0"
     },
     "devDependencies": {
+        "nodemon": "^2.0.3",
+        "ts-node": "^8.9.0",
         "typescript": "^3.8.3"
     }
 }
