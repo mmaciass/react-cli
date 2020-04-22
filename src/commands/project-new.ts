@@ -1,12 +1,13 @@
 import {Question, prompt, Answers} from "inquirer";
-import projectName from "../../questions/project-name";
-import {ProjectNewArt} from "../../arts/project";
+import projectName from "../questions/project-name";
+import {ProjectNewArt} from "../arts/project";
+import useScript from "../questions/use-script";
 
-async function New(args) {
+async function ProjectNew(args) {
     console.log(ProjectNewArt);
 
     const CliQuestions: Question[] = [
-        projectName
+        projectName, useScript
     ];
 
     prompt(CliQuestions)
@@ -16,4 +17,4 @@ async function New(args) {
 
 }
 
-export default New;
+export default ProjectNew;
