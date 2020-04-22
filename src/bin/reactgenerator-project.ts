@@ -1,8 +1,8 @@
 import {program} from "commander";
-import ProjectNew from "../commands/project-new";
+import ProjectNewCommand from "../commands/project-new-command";
 
 program
     .command('new')
-    .action(ProjectNew)
+    .action(ProjectNewCommand)
     .parse(process.argv);
 

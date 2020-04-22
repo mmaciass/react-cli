@@ -2,7 +2,7 @@ import {Answers, Question} from "inquirer";
 
 let color = require('colors');
 
-const projectName: Question<Answers> = {
+const ProjectNameQuestion: Question<Answers> = {
     type: 'input',
     name: 'projectName',
     message: color.blue('Enter project name'),
@@ -11,4 +11,4 @@ const projectName: Question<Answers> = {
     }
 };
 
-export default projectName;
+export default ProjectNameQuestion;

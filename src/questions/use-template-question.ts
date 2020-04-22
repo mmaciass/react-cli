@@ -3,15 +3,15 @@ import {Answers, ListQuestion} from "inquirer";
 let color = require('colors');
 
 const optionTemplates = [
-    {name: 'JavaScript', value: 'javascript'},
+    {name: 'None', value: null},
     {name: 'TypeScript', value: 'typescript'},
 ];
 
-const useScript: ListQuestion<Answers> = {
+const UseTemplateQuestion: ListQuestion<Answers> = {
     type: 'list',
-    name: 'useTypes',
+    name: 'useTemplate',
     message: color.blue('Select your templates use.'),
     choices: optionTemplates
 };
 
-export default useScript;
+export default UseTemplateQuestion;
